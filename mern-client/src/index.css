@@ -2,15 +2,10 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
 body {
-  position: relative;
-  width: 1440px;
-  height: 900px;
-  
   background: #668663;
-  border-radius: 100px;
 }
+
 
 nav {
   position: fixed;
@@ -107,14 +102,14 @@ nav a:hover {
   
   text-align: center;
 
-  color: #F3DBC7;
+  color: #435F40;
 }
 .control {
+position: absolute;
 width: 24px;
 height: 28px;
-left: 50px;
-top: 224px;
-
+left: 18px;
+top: 11px;
 font-family: Font Awesome 5 Free;
 font-style: normal;
 font-weight: 900;
@@ -127,32 +122,31 @@ text-align: center;
 color: #F3DBC7;
 }
 .giraffes {
+  position: absolute;
   width: 24px;
   height: 28px;
-  left: 50px;
-  top: 305px;
-  
+  left: 18px;
+  top: 11px;
   font-family: Font Awesome 5 Free;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
   line-height: 28px;
-  /* identical to box height */
-  
+
   text-align: center;
-  
-  color: #F3DBC7;
+
+  color: #435F40;
 }
 .giraffes:hover {
   background: #fff;
   color: #435F40;
 }
 .workers {
+  position: absolute;
   width: 30px;
   height: 28px;
-  left: 47px;
-  top: 385px;
-  
+  left: 15px;
+  top: 11px;  
   font-family: Font Awesome 5 Free;
   font-style: normal;
   font-weight: 900;
@@ -165,11 +159,11 @@ color: #F3DBC7;
   color: #F3DBC7;
 }
 .settings {
+  position: absolute;
   width: 24px;
   height: 28px;
-  left: 50px;
-  top: 463px;
-  
+  top: 12px;
+  left: 18px;
   font-family: Font Awesome 5 Free;
   font-style: normal;
   font-weight: 900;
@@ -182,11 +176,11 @@ color: #F3DBC7;
   color: #F3DBC7;
 }
 .support {
+  position: absolute;
   width: 24px;
   height: 28px;
-  left: 50px;
-  top: 540px;
-  
+  top: 12px;
+  left: 18px;
   font-family: Font Awesome 5 Free;
   font-style: normal;
   font-weight: 900;
@@ -275,11 +269,11 @@ color: #F3DBC7;
   color: #FFFFFF;
 }
 .nav-icon__description_second { 
+  position: absolute;
   width: 94px;
   height: 20px;
-  left: 101px;
-  top: 229px;
-  
+  left: 69px;
+  top: -14px;  
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -292,11 +286,11 @@ color: #F3DBC7;
   color: #FFFFFF;
 }
 .nav-icon__description_third { 
+  position: absolute;
   width: 80px;
   height: 22px;
-  left: 103px;
-  top: 309px;
-  
+  left: 71px;
+  top: -14px;  
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -307,63 +301,307 @@ color: #F3DBC7;
   color: #fff;
 }
 .nav-icon__description_fourth { 
+  position: absolute;
   width: 93px;
   height: 20px;
-  left: 102px;
-  top: 390px;
-  
+  left: 70px;
+  top: -14px;  
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
   line-height: 20px;
-  /* identical to box height */
   
   text-align: center;
   
   color: #FFFFFF;
 }
 .nav-icon__description_fifth { 
+  position: absolute;
   width: 85px;
   height: 20px;
-  left: 102px;
-  top: 467px;
+  left: 70px;
+  top: -14px;
   
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
   line-height: 20px;
-  /* identical to box height */
   
   text-align: center;
   
   color: #FFFFFF;
 }
 .nav-icon__description_sixth { 
+  position: absolute;
   width: 90px;
   height: 20px;
-  left: 101px;
-  top: 544px;
+  left: 69px;
+  top: -14px;
+
   
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
   line-height: 20px;
-  /* identical to box height */
   
   text-align: center;
   
   color: #FFFFFF;
 } 
-.giraffes {
+.giraffe {
   position: absolute;
-  width: 1600px;
+  width: 1603px;
   height: 876px;
   left: 294px;
   top: 12px;
   
   background: #FFFFFF;
   border-radius: 25px;
+}
+.profile-email__name {
+position: absolute;
+width: 128px;
+height: 19px;
+top: 30px;
+right: 53px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+
+text-align: center;
+
+color: #484848;
+}
+.aviary-number {
+  position: absolute;
+  width: 67px;
+  height: 19px;
+  right: 1470px;
+  top: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  
+  text-align: center;
+  
+  color: #484848;
+}
+.divide {
+position: absolute;
+width: 1485px;
+height: 3px;
+left: 65px;
+top: 85px;
+background-size: cover;
+background: #D9D9D9;
+border-radius: 18px;
+}
+.user-logo {
+width: 34px;
+height: 34px;
+position: absolute;
+left: 86.17%;
+right: 13.47%;
+top: 5.22%;
+bottom: 93%;
+}
+.ring {
+position: absolute;
+width: 21px;
+height: 28px;
+left: 1330px;
+top: 50px;
+
+text-align: center;
+
+color: #567354;
+}
+.ring:hover {
+  opacity: 0.8;
+  color: #d81818;
+}
+.special-divide {
+position: absolute;
+width: 67px;
+height: 3px;
+left: 65px;
+top: 85px;
+z-index: 1;
+background: #567354;
+border-radius: 18px;
+}
+
+.fullness {
+position: absolute;
+width: 506px;
+height: 217px;
+left: 1050px;
+top: 743px;
+
+background: #668663;
+border-radius: 28px;
+}
+
+.percent-itog {
+position: absolute;
+width: 106px;
+height: 79px;
+bottom: 42px;
+left: 30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 59px;
+text-align: center;
+
+color: #fff;
+}
+.percent_description {
+position: absolute;
+width: 196px;
+height: 23px;
+top: 42px;
+left: 145px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #fff;
+}
+.range {
+width: 323px;
+height: 31px;
+margin-top: 88px;
+margin-left: 29px;
+background: #435F40;
+border-radius: 35px;
+}
+.range-percent {
+position: absolute;
+width: 237.62px;
+height: 22.55px;
+margin-top: 4.23px;
+margin-left: 5.14px;
+background: #F3DBC7;
+border-radius: 35px;
+}
+
+.info {
+width: 110px;
+height: 31px;
+margin-left: 375px;
+margin-top: -50px;
+background: #435F40;
+border-radius: 35px;
+}
+.information {
+  width: 74px;
+  height: 14px;
+  padding-top: 9px;
+  padding-left: 18px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #FFFFFF ;
+}
+/* giraffe card */
+.giraffe-profile__logo {
+  width: 150px;
+  height: 150px;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+.giraffe-profile__name {
+  margin-top: 16px;
+  margin-left: 66px;
+  font-size: 22px;
+  line-height: 26px;
+}
+.card {
+width: 236px;
+height: 495px;
+margin-top: 160px;
+margin-left: 51px;
+background: #F3DBC7;
+border-radius: 28px;
+}
+.param {
+width: 25px;
+height: 25px;
+margin-left: 40px;
+text-align: center;
+color: #435F40;
+}
+.edit-block {
+position: absolute;
+margin-left: 187px;
+width: 174px;
+height: 94px;
+background: #668663;
+border-radius: 20px;
+}
+.edit-block__change{
+width: 151px;
+height: 32px;
+margin-top: 5px;
+
+}
+.edit-block__change:hover {
+  background: #567354;
+  border-radius: 52px;
+}
+.edit-block__delete {
+width: 151px;
+height: 32px;
+margin-top: 15px;
+}
+.edit-block__delete:hover {
+  background: #567354;
+  border-radius: 52px;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 151px;
+height: 32px;
+}
+.pen {
+  margin-left: 23px;
+  margin-top: 15px;
+}
+
+.trash {
+  margin-left: 23px;
+  margin-top: 5px;
+}
+.set-edit {
+  bottom: 40px;
+  margin-top: -20px;
+  margin-left: 50px;
+  color:#fff;
+  font-weight: 100;
+  text-align: center;
+}
+.set-delete {
+  margin-top: -30px;
+  margin-left: 30px;
+  color:#fff;
+  font-weight: 100;
+  text-align: center;
+}
+
+.edit {
+margin-left: 195px;
 }

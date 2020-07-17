@@ -14,7 +14,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 //import AuthRoute from '../util/AuthRoute'
 
 //pages
-import Main from '../pages/Main'
+//import Main from '../pages/Main'
 //import Control from '../pages/Control'
 import {Giraffes} from '../pages/Giraffes'
 //import Workers from '../pages/Workers'
